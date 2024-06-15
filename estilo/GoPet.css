@@ -1,401 +1,499 @@
 @charset "UTF-8";
-body{
+
+body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin:0px;
-    
+    margin: 0px;
 }
 
 
-.cabecalho-um{
-top: 0px;
-text-align: center;
- margin:auto;
-background-color:orange; 
-color: white; 
-font-size: 70px;
-padding: 1%;
+.cabecalho-um {
+    top: 0px;
+    text-align: center;
+    margin: auto;
+    background-color: orange;
+    color: white;
+    font-size: 70px;
+    padding: 1%;
 }
 
-.gopetdogdiv{
- background-image: url(../FOTOS/cachorrocombolinha.jpg);
+.gopetdogdiv {
+    background-image: url(../FOTOS/cachorrocombolinha.jpg);
     background-position: center;
-    background-size:cover;
-    width:100%;
-    height:400px;
-
+    background-size: cover;
+    width: 100%;
+    height: 400px;
 }
 
-.gopetdog{
-   
-width:100%;
-height: 400px;
-display: flex;
-justify-content: center;
-align-items: center;
-margin: auto;
+.gopetdog {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
 }
 
-              
-.hotbar-um a{ 
-text-decoration: none;
-color:black;
+.titulo-dois {
+    font-size: 24px;
+    text-align: center;
+    margin: 20px 0px -15px 0px;
 }
 
-.titulo-dois{
- font-size: 24px;
- text-align: center;
- margin: 20px 0px -15px 0px;
+.paragrafo-um {
+    margin: 15px 0px 0px 0px;
+    text-align: left;
+    padding: 0px 13px 10px 13px;
 }
 
-.paragrafo-um{
-font-size:px;
-margin:15px  0px 0px 0px;
-text-align: left;
-padding: 0px 13px 10px 13px;
+.titulo-tres {
+    font-size: 24px;
+    text-align: center;
+    margin: 20px 0px -15px 0px;
 }
 
-.titulo-tres{
-font-size: 24px; 
-text-align:center;
-margin: 20px 0px -15px 0px;
-}
-.paragrafo-dois{
-    font-size:px;
+.paragrafo-dois {
     margin: 15px;
     text-align: left;
-
 }
 
-.titulo-quatro{
-font-size: 24px;
-margin: 20px 0px -15px 0px;
-text-align: center;
+.titulo-quatro {
+    font-size: 24px;
+    margin: 20px 0px -15px 0px;
+    text-align: center;
 }
 
-.paragrafo-tres{
-font-size:px;
-margin: 15px;
-text-align: left;
+.paragrafo-tres {
+    margin: 15px;
+    text-align: left;
 }
 
-
-.conteiner{
-text-align: center;
+.conteiner {
+    text-align: center;
     font-size: 20px;
- @media (max-width: 768px){
-     main{
-         font-size: 13px;
-     }
- }
- 
 }
 
-
-.foto-logo{
-width: 45px;
-height: 45px;
-position: absolute;
-margin:36px 0px 0px -51px;
-border-radius: 50%;
-display: flex;
-justify-content:center;
+@media (max-width: 768px) {
+    main {
+        font-size: 13px;
+    }
 }
 
-.fotologodiv{
-display: flex;
-justify-content:center;
-margin: 0px 0px 0px 0px;
-}
-
-.fotopata{
-width:50px;
-position: absolute;
-margin:30px 0px 0px 20px;
-display: flex;
-height:50px;
-}
-
-
-
-.patihadiv{ 
-}
-
-.patinhadiv2{
+.foto-logo {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    margin: 36px 0px 0px -51px;
+    border-radius: 50%;
     display: flex;
-justify-content:right;
-
+    justify-content: center;
 }
 
-.fotopata2{
-width:50px;
-position: absolute;
-margin: 30px 20px 0px 0px;
-display: flex;
-justify-content: right;
-height: 50px;
+.fotologodiv {
+    display: flex;
+    justify-content: center;
+    margin: 0px 0px 0px 0px;
+}
+
+.fotopata {
+    width: 50px;
+    position: absolute;
+    margin: 30px 0px 0px 20px;
+    display: flex;
+    height: 50px;
+}
+
+.patinhadiv2 {
+    display: flex;
+    justify-content: right;
+}
+
+.fotopata2 {
+    width: 50px;
+    position: absolute;
+    margin: 30px 20px 0px 0px;
+    display: flex;
+    justify-content: right;
+    height: 50px;
 }
 
 @media(max-width:768px) {
-.gopetdog {
+    .gopetdog {
+        width: 100%;
+    }
+
+    .cabecalho-um {
+        font-size: 35px;
+    }
+
+    .fotopata {
+        margin: 10px 0px 0px 20px;
+        height: 30px;
+        width: 30px;
+    }
+
+    .fotopata2 {
+        margin: 10px 20px 0px 0px;
+        height: 30px;
+        width: 30px;
+    }
+
+    .gopetdogdiv {
+        width: 100%;
+        height: 200px;
+    }
+}
+
+#mais {
+    display: none;
+}
+
+#mais2 {
+    display: none;
+}
+
+h5 {
+    font-size: 24px;
+    margin: 20px 0px -15px 0px;
+}
+
+#botaojava {
+    background-color: orange;
+    border: solid 3px green;
+    cursor: pointer;
+    display: flex;
+    justify-content: left;
+    margin: 0px 0px 0px 20px;
+}
+
+#botaojava2 {
+    background-color: orange;
+    border: solid 3px green;
+    cursor: pointer;
+    display: flex;
+    justify-content: left;
+    margin: 0px 0px 0px 20px
+}
+
+#botaojava3 {
+    background-color: orange;
+    border: solid 3px green;
+    cursor: pointer;
+    display: flex;
+    justify-content: left;
+    margin: 0px 0px 0px 20px
+}
+
+#botaojava4 {
+    background-color: orange;
+    border: solid 3px green;
+    cursor: pointer;
+    display: flex;
+    justify-content: left;
+    margin: 0px 0px 20px 20px
+}
+
+.wpp {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin: 33px 0px 0px 85px;
+}
+
+.insta {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin: 35px 0px 0px 215px;
+}
+
+.gmail {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin: 33px 0px 0px 150px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+@media(max-width:768px) {
+    .wpp {
+        width: 30px;
+        height: 30px;
+        margin: 12px -100px 0px 55px;
+    }
+
+    .insta {
+        width: 30px;
+        height: 30px;
+        margin: -23px 0px 0px -185px;
+    }
+
+    .gopetdogdiv {
+        width: 100%;
+    }
+
+    .espaco {
+        margin: 0px 0px 0px 0px;
+    }
+
+    .logor {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin: 21px 0px 0px 0px;
+        justify-content: left;
+
+    }
+}
+
+.espaco {
+    display: flex;
+    justify-content: center;
+    gap: 13px;
+}
+
+#aicone {
+    display: none;
+}
+
+#aicone2 {
+    display: none;
+}
+
+#aicone3 {
+    display: none;
+}
+
+.icone2 {
+    width: 35px;
+    height: 35px;
+    margin: 20px 0px 0px 0px;
+    align-items: center;
+}
+
+#logoresp {
+    display: none;
+    height: 1px;
+}
+
+#sumir {
+    display: none;
+}
+
+#sumir2 {
+    display: none;
+}
+
+#sumir3 {
+    display: none;
+}
+
+@media(max-width:768px) {
+    #aicone {
+        display: block;
+    }
+
+    #aicone2 {
+        display: block;
+    }
+
+    #aicone3 {
+        display: block;
+    }
+
+    #logoresp {
+        display: block;
+        display: flex;
+    }
+
+}
+
+#sumir {
+    display: none;
+}
+
+#sumir2 {
+    display: none;
+}
+
+#sumir3 {
+    display: none;
+}
+
+@media(min-width:768px) {
+    #sumir {
+        display: block;
+    }
+
+    #sumir2 {
+        display: block;
+    }
+
+    #sumir3 {
+        display: block;
+    }
+
+}
+
+.foto8 {
     width: 100%;
- }
-.cabecalho-um {
-font-size:35px;
-}
-.fotopata{
-margin: 10px 0px 0px 20px;
-height:30px;
-width:30px;
-}
-.fotopata2{
-margin: 10px 20px 0px 0px;
-height:30px;
-width:30px;
+    height: 370px;
 }
 
-.gopetdogdiv{
-width: 100%;
-height: 200px;
+.foto5 {
+    width: 100%;
+    height: 350px;
 }
 
+.divfoto8 {
+    padding: 12px 55px 0px 55px;
 }
 
-
-
-#abotao{
- display: non;
-}
-
-#botaobotao{
-display: non;
-}
-
-
-.paragrafo-quatro{
-
-}
-
-#mais{
-    display: none;
-}
-
-#mais2{
-display: none;
-}
-
-
-
-
-
-.clean3{
- text-decoration: none;
- position: absolute;
- margin:0px 0px 0px 0px;
-}
-
-h5{
-font-size:24px;
-margin: 20px 0px -15px 0px;
-}
-
-
-#botaojava{
-background-color: orange;
-border: solid 3px green;
-cursor: pointer;
-display: flex;
-justify-content: left;
-margin: 0px 0px 0px 20px;
-}
-
-#botaojava2{
-background-color: orange;
-border: solid 3px green;
-cursor: pointer;
-display: flex;
-justify-content: left;
-margin: 0px 0px 0px 20px
-}
-
-
-
-.wpp{
-width:50px;
-height:50px;
-position: absolute;
-margin: 33px 0px 0px 85px;
-}
-
-.insta{
-width: 50px;
-height: 50px;
-position: absolute;
-padding: 35px 0px 0px 215px;
-}
-
-.gmail{
-width: 50px;
-height: 50px;
-position: absolute;
-margin: 33px 0px 0px 150px;
-border-radius: 50%;
-display: flex;
-justify-content:center; 
-border-radius:50%;
-    }
-
-@media(max-width:768px){
-.wpp{
-width:30px;
-height: 30px;
-margin: 12px -100px 0px 55px;
-}
-
-.insta{
-width: 30px;
-height: 30px;
-margin: -23px 0px 0px -185px;
-}
-
-.gopetdogdiv{
-width: 100%;
-}
-
-
-
-.divicones{
-
-}
-
-.espaco{ 
-margin: 0px 0px 0px 0px;
-}
-
-.logor{
-width:40px;
-height:40px;
-border-radius: 50%;
-margin:21px 0px 0px 0px;
-justify-content: left;
-
-}
-
-}
-
-
-
-
-.espaco{
-display: flex;
-justify-content: center;
-gap: 13px;
-
-}
-
-#aicone{
-    display: none;
-    
-    }
-
-.icone2{
-  width: 35px;
- height: 35px;
- margin: 20px 0px 0px 0px;
- align-items: center;
-}
-
-#logoresp{
-display: none;
-height: 1px;
-}
-
-#sumir{
-    display: none;
-    }
-
-@media(max-width:768px){
-#aicone{
-display: block; 
-}
-
-#logoresp{
-display: block;
-display: flex;
-}
-
-}
-
-#sumir{
-    display: none;
-    }
-
-@media(min-width:768px){
-#sumir{
-display: block;
-}
-}
-
-.foto8{
-width: 100%;
-height:370px;
-}
-
-.foto5{
-width:100%;
-height: 350px;
-}
-
-.divfoto8{
-padding: 12px 55px 0px 55px;
-}
-
-.divfoto5{
-padding: 20px 55px 20px 55px;
-}
-
-.divfoto3{
+.divfoto5 {
     padding: 20px 55px 20px 55px;
 }
 
-.p3divespecial{
-margin: -5px 0px 0px 0px;
-padding: 0px 17px 0px 17px;
-text-align: left;
-}
- 
-#mais3{
-display: none;
+.divfoto3 {
+    padding: 20px 55px 20px 55px;
 }
 
-@media(max-width:768px){
-.foto8{
-height: 180px;
-}
-
-.foto5{
-width: 100%;
-height: 180px;    
-}
-
-.divfoto8{
-padding: 0px 20px 0px 20px;
-}
-
-.divfoto5{
-padding:  15px 20px 15px 20px;
-}
-
-.divfoto3{
-padding:  15px 30px 15px 30px;
-}
-
-.p3divespecial{
-    padding: 0px 17px 0px 17px ;
+.p3divespecial {
+    margin: -5px 0px 0px 0px;
+    padding: 0px 17px 0px 17px;
     text-align: left;
 }
 
+#mais3 {
+    display: none;
 }
 
-footer{
+#mais4 {
+    display: none;
+}
 
+.divfotosi {
+    padding: 15px 50px 15px 50px;
+}
+
+.fotosi {
+    width: 100%;
+    height: 400px;
+}
+
+.divfotot {
+    padding: 20px 50px 20px 50px;
+}
+
+.fotot {
+    width: 100%;
+    height: 480px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    background-color: orange;
+    color: white;
+    font-size: 57px;
+    padding: 1%;
+    height: 75px;
+}
+
+.pataf {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+}
+
+.divpataf {
+    position: absolute;
+    margin: -72px 0px 0px 20px;
+}
+
+.divpataf2 {
+    justify-content: right;
+    margin: -72px 20px 0px 0px;
+    display: flex;
+}
+
+.pataf2 {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    justify-content: right;
+    display: flex;
+}
+
+@media(max-width:768px) {
+    .foto8 {
+        height: 180px;
+    }
+
+    .foto5 {
+        width: 100%;
+        height: 180px;
+    }
+
+    .divfoto8 {
+        padding: 0px 20px 0px 20px;
+    }
+
+    .divfoto5 {
+        padding: 15px 20px 15px 20px;
+    }
+
+    .divfoto3 {
+        padding: 15px 30px 15px 30px;
+    }
+
+    .p3divespecial {
+        padding: 0px 17px 0px 17px;
+        text-align: left;
+    }
+
+    .divfotosi {
+        padding: 13px 30px 13px 30px;
+    }
+
+    .fotosi {
+        width: 100%;
+        height: 200px;
+    }
+
+    .divfotot {
+        padding: 15px 30px 13px 30px;
+    }
+
+    .fotot {
+        width: 100%;
+        height: 200px;
+    }
+
+    footer {
+        font-size: 35px;
+        height: 45px;
+    }
+
+    .divpataf {
+        margin: -40px 0px 0px 12px;
+    }
+
+    .pataf {
+        height: 30px;
+        width: 30px;
+    }
+
+    .divpataf2 {
+        margin: -40px 12px 0px 0px;
+    }
+
+    .pataf2 {
+        height: 30px;
+        width: 30px;
+    }
 }
